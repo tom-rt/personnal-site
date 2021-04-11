@@ -129,7 +129,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Page d'accueil !</title>
       <h1 style={headingStyles}>
         Congratulations
         <br />
