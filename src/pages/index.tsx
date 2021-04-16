@@ -5,6 +5,10 @@ const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+<<<<<<< HEAD
+=======
+  backgroundColor: "red"
+>>>>>>> 7cb140cceacdffb88e89ced57d659b709f881255
 };
 const headingStyles = {
   marginTop: 0,
@@ -77,13 +81,28 @@ const badgeStyle = {
   marginLeft: 10,
   lineHeight: 1,
 };
+<<<<<<< HEAD
+=======
+
+// data
+const links = [
+  {}
+];
+>>>>>>> 7cb140cceacdffb88e89ced57d659b709f881255
 
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+<<<<<<< HEAD
       <title>Thomas Raout</title>
       <h1 style={headingStyles}>Thomas Raout</h1>
+=======
+      <title>Personnal website</title>
+      <h1 style={headingStyles}>
+        Yo !
+      </h1>
+>>>>>>> 7cb140cceacdffb88e89ced57d659b709f881255
     </main>
   );
 };
