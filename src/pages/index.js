@@ -3,11 +3,11 @@ import Layout from "../components/layout"
 import { BsArrowRight } from "react-icons/bs";
 import "../css/index.css"
 
-// styles
 const pageStyles = {
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 8,
@@ -17,6 +17,7 @@ const headingStyles = {
 const subtitle = {
   marginTop: 0,
   marginBottom: 0,
+  fontWeight: "normal"
 };
 
 const listContainer = {
@@ -40,11 +41,12 @@ const IndexPage = () => {
       <title>Thomas Raout</title>
       <h1 style={headingStyles}>Thomas Raout</h1>
       <h3 style={subtitle}>26 ans, Paris</h3>
-      <h3 style={subtitle}>Développeur full-stack, Go, Typescript, Linux</h3>
+      <h3 style={subtitle}>Développeur full-stack</h3>
+      <h3 style={subtitle}>Go, Typescript, Linux</h3>
       <div style={listContainer}>
-        <div style={listElem} ><BsArrowRight/><div className="text">Code</div></div>
-        <div style={listElem}><BsArrowRight/><div className="text">Mail</div></div>
-        <div style={listElem}><BsArrowRight/><div className="text">CV</div></div>
+        <div style={listElem} ><BsArrowRight/><div className="text"><a href="https://github.com/tom-rt" target="blank">Github</a></div></div>
+        <div style={listElem} ><BsArrowRight/><div className="text"><a href="mailto:thomraout@gmail.com" target="blank">Mail</a></div></div>
+        <div style={listElem}><BsArrowRight/><div className="text"> <a href="https://www.linkedin.com/in/thomas-raout-1a03b0b6/" target="blank">LinkedIn</a></div></div>
       </div>
     </main>
     </Layout>
